@@ -1,50 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@300;400;500;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-header{
+
+header {
     width: 100%;
     height: 100vh;
     background-image: url("images/banner3.png");
 }
-:root{
-    --text-color:white;
+
+:root {
+    --text-color: white;
 }
-.header-title,.header-description{
-color: var(--text-color);
+
+.header-title,
+.header-description {
+    color: var(--text-color);
 }
-.header-container{
+
+.header-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 100vh;
 }
-.header-content{
+
+.header-content {
     text-align: right;
     width: 500px;
     height: 300px;
     padding-right: 150px;
 }
-.header-contact-btn{
+
+.header-contact-btn {
     display: inline-block;
     text-decoration: none;
     font-size: 15px;
     font-weight: 700;
-    color: rgb(49, 48, 48);
+    color: #005FAC;
     background-color: rgb(255, 255, 255);
     /* width: 120px;
     height: 40px; */
     padding: 15px 20px;
     border-radius: 5px;
 }
+
 /* main part banner container */
-.banner-container{
+.banner-container {
     width: 100%;
     height: 100vh;
     background: white;
@@ -52,51 +61,80 @@ color: var(--text-color);
     align-items: center;
     display: flex;
 }
-.image-part img{
+
+.image-part img {
     width: 420px;
-height: 600px;
+    height: 600px;
 }
+
 /* .text-part{
     width: ;
 } */
- ul li{
-list-style: none;
+ul li {
+    list-style: none;
 }
-.text-part i{
+
+.text-part i {
     color: rgb(86, 255, 89);
     margin-right: 7px;
     margin-left: -3px;
 }
+
 /* my plan section */
-.my-plan{
+.my-plan {
     position: relative;
     margin: auto;
     width: 1140px;
     height: 250px;
     background-color: white;
 }
-.my-plan h2{
+
+.my-plan h2 {
     text-align: center;
     padding-top: 20px;
     margin-bottom: 20px;
 }
-.plan-items{
+
+.plan-items {
     display: flex;
     justify-content: space-around;
 }
-.item{
+
+.item {
     text-align: center;
 }
-.item p{
+
+.item p {
     color: rgb(119, 118, 117);
 }
+
 /* call banner section */
-.call-banner{
-    /* width: 100%; */
+/* .call-banner{
+    
     position: relative;
     margin: auto;
     width: 1140px;
     height: 300px;
     background-image: url(images/watch.png);
+    } */
+.call-banner {
+    position: relative;
+    margin: auto;
+    width: 1140px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(images/watch.png);
+
+}
+.call-title{
+    position: absolute;
+    width: 210px;
+    margin: 50px 0 50px 50px;
+    
+}
+.call-title h2 {
+    color: var(--text-color);
+    margin-bottom: 20px;
     
 }
