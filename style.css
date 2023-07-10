@@ -69,7 +69,9 @@ list-style: none;
 }
 /* my plan section */
 .my-plan{
-    width: 100%;
+    position: relative;
+    margin: auto;
+    width: 1140px;
     height: 250px;
     background-color: white;
 }
