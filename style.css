@@ -46,8 +46,6 @@ header {
     font-weight: 700;
     color: #005FAC;
     background-color: rgb(255, 255, 255);
-    /* width: 120px;
-    height: 40px; */
     padding: 15px 20px;
     border-radius: 5px;
 }
@@ -144,7 +142,7 @@ ul li {
     background: rgb(0, 0, 0);
 }
 .colomn{
-    width: 50%;
+    width: 300px;
 }
 .colomn h3{
     color: white;
@@ -157,9 +155,9 @@ ul li {
 .icons  .bxl-facebook{
     color: rgb(48, 106, 252);
     background: white;
-    border: 10px solid white;
+    border: 5px solid white;
     border-color: white;
-    font-size: 30px;
+    font-size: 15px;
     border-radius: 50%;
     
 
@@ -167,18 +165,54 @@ ul li {
 .icons .bxl-twitter{
     color: rgb(36, 189, 249);
     background: white;
-    border: 10px solid white;
+    border: 5px solid white;
     border-color: white;
-    font-size: 30px;
+    font-size: 15px;
     border-radius: 50%;
 
 }
 .icons .bxl-youtube{
     color: rgb(251, 24, 24);
     background: white;
-    border: 10px solid white;
+    border: 5px solid white;
     border-color: white;
-    font-size: 30px;
+    font-size: 15px;
     border-radius: 50%;
 
+}
+/* first colomn end */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second-part-title{
+    color: white;
+
+}
+.second-part-title{
+    margin-bottom: 20px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container input{
+    padding: 15px;
+    border: whitesmoke;
+    outline:auto;
+    background: none;
+    border-radius: 5px;
+}
+.sub-btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    width: 80px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #005FAC;
+    padding: 15px 20px;
+    border-radius: 5px;
 }
